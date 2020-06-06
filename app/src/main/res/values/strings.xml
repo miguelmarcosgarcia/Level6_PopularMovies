@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Level6_PopularMovies</string>
+    <string name="most_popular_movies">TOP popular movies of</string>
+    <string name="submit_button_text">Submit</string>
+    <string name="overview">Overview</string>
+    <string name="errorMessage">Sorry, an error occurred: </string>
+</resources>
