@@ -15,7 +15,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     companion object{
-        const val apiKey = ""
+        const val apiKey = "334b5b4536f9132001cee88fe470cd8e"
     }
     private lateinit var viewModel: MainActivityViewModel
     private val movies = arrayListOf<Movie>()

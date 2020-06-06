@@ -1,7 +1,6 @@
 package com.example.level6_popularmovies.activities
 
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
@@ -27,7 +26,7 @@ class MovieActivity: AppCompatActivity() {
         return when (item?.itemId) {
             android.R.id.home -> {
                 finish()
-                 true
+                true
             }
             else -> return super.onOptionsItemSelected(item)
         }
